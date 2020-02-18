@@ -1,0 +1,64 @@
+.firstBox {
+    margin-top: 10rem;
+}
+
+.firstBox>div {
+    margin-top: 3rem;
+}
+
+div>h1 {
+    color: white;
+    font-size: 55px;
+    text-shadow: 2px black solid;
+}
+
+.animation0 {
+    animation: letterrotate 1.5s forwards;
+    display: inline-block;
+}
+
+.animation1 {
+    animation: lettermovedown 1.5s forwards;
+    display: inline-block;
+}
+
+.animation2 {
+    animation: lettermoveup 1.5s forwards;
+    display: inline-block;
+}
+
+@keyframes letterrotate {
+    0% {
+        transform: rotate(100deg);
+    }
+    50% {
+        transform: rotate(250deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes lettermovedown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes lettermoveup {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
