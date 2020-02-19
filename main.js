@@ -17,14 +17,14 @@ $(function() {
             150
         ];
 
-        $(document.body).css('background', 'rgb(' + rgb.join(',') + ')');
+        $('.layer').css('background', 'rgba(' + rgb.join(',') + ',0.250)');
 
     }).resize();
 
 
- 
 
-    $(document).ready(function () {
+
+    $(document).ready(function() {
         // first name
         let firstNameArray = $('.firstName').html().split(' ')[0].split('');
         let lastNameArray = $('.firstName').html().split(' ')[1].split('');
@@ -37,7 +37,6 @@ $(function() {
         let dev = $('.webDev').html().split(' ')[1].split('');
 
 
-        // first name
         $('.firstName').html('');
         $('.notYourAvarage').html('');
         $('.webDev').html('');
@@ -67,7 +66,6 @@ $(function() {
                 $('.notYourAvarage').append(`<span class='animation${radomizer}'>${letter}</span>`);
             }
         }, 200);
-        // notyourava
         setTimeout(() => {
             for (letter of web) {
                 let radomizer = Math.floor(Math.random() * 3);
@@ -77,18 +75,19 @@ $(function() {
             for (letter of dev) {
                 let radomizer = Math.floor(Math.random() * 3);
                 $('.webDev').append(`<span class='animation${radomizer}'>${letter}</span>`);
-            }    
+            }
         }, 500);
-        // webdev
-        
-        
     });
 
-    $('.firstName').on('mouseout', function () {
-        setTimeout(() => {
-            $(this).html('Eden Hazani');
-        }, 1500);
-    });
+    $('body').mousemove(function(e) {
+        let moveX = (e.pageX * -1 / 15);
+        let moveY = (e.pageY * -1 / 15);
+        $('#typewriter').css('margin-left', moveX + 'px ')
+        $('#typewriter').css('margin-top', moveY + 'px ')
+    })
+
+
+
 
     var i = 0;
     var txt = `<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -226,58 +225,17 @@ $(function() {
                 <p>Voyager 1 is a space probe launched by NASA on September 5, 1977.<br> Part of the Voyager program to study the outer Solar System</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col voyager">
-                <hr>
-                <span>At the time you are reading this Voyager 1 is:</span>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <div class="col">
-                <div class="animationBox">
-                    <div class="satelliteAnimation">
-                        <div id="voyagerCounter"></div>
-                        <img src="assets/images/satellite-icon2.svg">
-                        <br><br>
-                        <span>Away From Earth</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row voyagerPostersRow">
-            <div class="col">
-                <span>Posters For Download!</span>
-                <div class="wrapper">
-                    <a data-fancybox="gallery" href="assets/images/voyager_poster.jpg"><img class="voyagerPostersGallery" src="assets/images/voyager_poster.jpg" alt="" /></a>
-                    <a data-fancybox="gallery" href="assets/images/voyager_disco_poster.jpg"><img class="voyagerPostersGallery" src="assets/images/voyager_disco_poster.jpg" alt="" /></a>
-                </div>
-            </div>
-        </div>
-        <div class="push"></div>
-    </div>
-    <div class="row footer">
-        <div class="col">
-            <div class="siteRights">
-                <br>
-                <hr>
-                <span>All rights reserved - Spacers Zeal&trade;	 2074 &reg;	</span>
-            </div>
-        </div>
-    </div>
-    <script src="Main.js"></script>
-    <script src="trueSpace.js"></script>
-
     `
-    var speed = 20; /* The speed/duration of the effect in milliseconds */
-    $(document).ready( ()=> {
+    var speed = 1; /* The speed/duration of the effect in milliseconds */
+    $(document).ready(() => {
         typeWriter()
     });
+
     function typeWriter() {
         if (i < txt.length) {
             document.getElementById("typewriter").innerHTML += txt.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
         }
-    }   
+    }
 });
-
