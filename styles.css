@@ -1,19 +1,50 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
 }
-
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col{
+      padding-left: 0;
+      padding-right: 0;
+  }
 .firstBox {
     margin-top: 10rem;
 }
 
-.backgroundGif {
+.backgroundParallax1 {
+    height: 1000px;
     width: 100%;
-    height: 1100px;
     background-image: url('assets/images/backgroundGif.gif');
-    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.backgroundParallax2{
+    height: 400px;
+    width: 100%;
+    background-image: url('assets/images/parallaxBack1.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 
 .firstBoxBackground {
     background-color: rgba(255, 255, 255, 0.212);
@@ -40,6 +71,11 @@ body {
     margin-top: 5rem;
 }
 
+.personalInfoCard{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
 #typewriter {
     color: wheat;
     height: 250%;
@@ -59,6 +95,13 @@ div>h1 {
     color: #FFFFFF;
 }
 
+.projectLinks{
+    margin-top: 15px;
+}
+.projectLinks>a{
+    color: white;
+}
+
 .animation0 {
     animation: letterrotate 1.5s forwards;
     display: inline-block;
@@ -74,12 +117,59 @@ div>h1 {
     display: inline-block;
 }
 
+.infoContainer{
+    height:600px;
+    position: relative;
+  }
+
+  .circlec>h2{
+      margin-top: 35%;
+  }
+  .circlea>h2{
+      margin-top: 25px;
+  }
+  
+  .circlea,.circleb,.circlec{
+    height:350px;
+    width:350px;
+    border-radius:50%;
+    margin-top:15px;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    opacity:0;
+    color:white;
+  }
+  .circlea{
+   background-color:rgba( 20, 155, 138,1 );
+  }
+  .circleb{
+    background-color:rgba( 155, 20, 144,1);
+  }
+  .circlec{
+    background-color:rgba( 24, 155, 20,1);
+    opacity:1;
+    cursor: pointer;
+  }
+
+  .transforma{
+    margin-top:400px;
+    opacity:1;
+  }
+  .transformb{
+     margin-top:780px;
+     opacity:1;
+  }
+  
+  .transformb{
+     opacity:1;
+  }
+
 @keyframes letterrotate {
     0% {
         transform: rotate(0deg);
     }
     50% {
-        transform: rotate(50deg);
+        transform: rotate(30deg);
     }
     100% {
         transform: rotate(0deg);
@@ -91,7 +181,7 @@ div>h1 {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(50px);
     }
     100% {
         transform: translateY(0px);
@@ -103,7 +193,7 @@ div>h1 {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
     100% {
         transform: translateY(0px);
