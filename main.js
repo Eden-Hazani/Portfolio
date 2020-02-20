@@ -85,11 +85,11 @@ $(function() {
         $('#typewriter').css('margin-top', moveY + 'px ')
     })
 
-    $(".circlec").click(function(){
+    $(".circlec").click(function() {
         $('.circlec>h2').fadeOut(300);
         setTimeout(() => {
-            if($('.circlec>h2').html() === 'Want to learn more? <br> CLICK ME!'){
-                $('.backgroundParallax2').animate({height:1500},500)
+            if ($('.circlec>h2').html() === 'Want to learn more? <br> CLICK ME!') {
+                $('.backgroundParallax2').animate({ height: 1500 }, 500)
                 $('.circlec>h2').html('Eden Hazani <br>');
                 $('.circlec>h2').append(`<div class='personalInfoCard'> Stared programming at John Bryce in 2019.
                 <br>Fell in love with the world of code and how
@@ -101,17 +101,17 @@ $(function() {
                 I love to learn and evolve and excel<br>
                 In everything I do.
                 </div>`);
-                $('.circlec>h2').css('margin-top', 25+'px');
+                $('.circlec>h2').css('margin-top', 25 + 'px');
                 $('.circlec>h2').fadeIn('slow');
-            }else{
+            } else {
                 $('.circlec>h2').html('Want to learn more? <br> CLICK ME!');
-                $('.circlec>h2').css('margin-top', 35+'%');
+                $('.circlec>h2').css('margin-top', 35 + '%');
                 $('.circlec>h2').fadeIn('slow');
-                $('.backgroundParallax2').animate({height:400},500)
+                $('.backgroundParallax2').animate({ height: 400 }, 500)
             }
         }, 300);
-        
-    
+
+
 
         $("div.circleb").toggleClass("transformb");
         $("div.circlea").toggleClass("transforma");

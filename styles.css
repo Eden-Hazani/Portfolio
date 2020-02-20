@@ -1,4 +1,4 @@
-html{
+html {
     margin: 0;
     padding: 0;
 }
@@ -7,21 +7,26 @@ body {
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    max-width: 105%;
 }
+
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .row {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .col{
-      padding-left: 0;
-      padding-right: 0;
-  }
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .firstBox {
     margin-top: 10rem;
 }
@@ -35,7 +40,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.backgroundParallax2{
+.backgroundParallax2 {
     height: 400px;
     width: 100%;
     background-image: url('assets/images/parallaxBack1.jpeg');
@@ -43,8 +48,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
 
 .firstBoxBackground {
     background-color: rgba(255, 255, 255, 0.212);
@@ -71,7 +74,7 @@ body {
     margin-top: 5rem;
 }
 
-.personalInfoCard{
+.personalInfoCard {
     margin-top: 30px;
     font-size: 15px;
 }
@@ -95,10 +98,11 @@ div>h1 {
     color: #FFFFFF;
 }
 
-.projectLinks{
+.projectLinks {
     margin-top: 15px;
 }
-.projectLinks>a{
+
+.projectLinks>a {
     color: white;
 }
 
@@ -117,52 +121,59 @@ div>h1 {
     display: inline-block;
 }
 
-.infoContainer{
-    height:600px;
+.infoContainer {
+    height: 600px;
     position: relative;
-  }
+}
 
-  .circlec>h2{
-      margin-top: 35%;
-  }
-  .circlea>h2{
-      margin-top: 25px;
-  }
-  
-  .circlea,.circleb,.circlec{
-    height:350px;
-    width:350px;
-    border-radius:50%;
-    margin-top:15px;
+.circlec>h2 {
+    margin-top: 35%;
+}
+
+.circlea>h2 {
+    margin-top: 25px;
+}
+
+.circlea,
+.circleb,
+.circlec {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 15px;
     position: absolute;
     transition: all 1s ease-in-out;
-    opacity:0;
-    color:white;
-  }
-  .circlea{
-   background-color:rgba( 20, 155, 138,1 );
-  }
-  .circleb{
-    background-color:rgba( 155, 20, 144,1);
-  }
-  .circlec{
-    background-color:rgba( 24, 155, 20,1);
-    opacity:1;
-    cursor: pointer;
-  }
+    opacity: 0;
+    color: white;
+}
 
-  .transforma{
-    margin-top:400px;
-    opacity:1;
-  }
-  .transformb{
-     margin-top:780px;
-     opacity:1;
-  }
-  
-  .transformb{
-     opacity:1;
-  }
+.circlea {
+    background-color: rgba( 20, 155, 138, 1);
+}
+
+.circleb {
+    background-color: rgba( 155, 20, 144, 1);
+}
+
+.circlec {
+    background-color: rgba( 24, 155, 20, 1);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.transforma {
+    margin-top: 400px;
+    opacity: 1;
+}
+
+.transformb {
+    margin-top: 780px;
+    opacity: 1;
+}
+
+.transformb {
+    opacity: 1;
+}
 
 @keyframes letterrotate {
     0% {
