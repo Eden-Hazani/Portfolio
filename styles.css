@@ -5,16 +5,10 @@ html {
 
 body {
     overflow-x: hidden;
-    margin: 0px;
-    padding: 0px;
-    max-width: 105%;
 }
 
-.container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 15px;
-    margin-left: 15px;
+.screenCenter {
+    padding: 0;
 }
 
 .row {
@@ -148,15 +142,15 @@ div>h1 {
 }
 
 .circlea {
-    background-color: rgba( 20, 155, 138, 1);
+    background-color: rgb(146, 155, 20);
 }
 
 .circleb {
-    background-color: rgba( 155, 20, 144, 1);
+    background-color: rgb(20, 155, 31);
 }
 
 .circlec {
-    background-color: rgba( 24, 155, 20, 1);
+    background-color: rgb(155, 20, 20);
     opacity: 1;
     cursor: pointer;
 }
