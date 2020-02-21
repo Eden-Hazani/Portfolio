@@ -59,7 +59,7 @@ $(function() {
                 let radomizer = Math.floor(Math.random() * 3);
                 $('.notYourAvarage').append(`<span class='animation${radomizer}'>${letter}</span>`);
             }
-            $('.notYourAvarage').append(' ')
+            $('.notYourAvarage').append(' <br class="rwd-break">')
             for (letter of avarage) {
                 let radomizer = Math.floor(Math.random() * 3);
                 $('.notYourAvarage').append(`<span class='animation${radomizer}'>${letter}</span>`);
@@ -70,7 +70,7 @@ $(function() {
                 let radomizer = Math.floor(Math.random() * 3);
                 $('.webDev').append(`<span class='animation${radomizer}'>${letter}</span>`);
             }
-            $('.webDev').append(' ')
+            $('.webDev').append(` <br class="rwd-break">`)
             for (letter of dev) {
                 let radomizer = Math.floor(Math.random() * 3);
                 $('.webDev').append(`<span class='animation${radomizer}'>${letter}</span>`);
@@ -89,7 +89,7 @@ $(function() {
         $('.circlec>h2').fadeOut(300);
         setTimeout(() => {
             if ($('.circlec>h2').html() === 'Want to learn more? <br> CLICK ME!') {
-                $('.backgroundParallax2').animate({ height: 1500 }, 500)
+                $('.backgroundParallax2').animate({ height: 1500 }, 1500)
                 $('.circlec>h2').html('Eden Hazani <br>');
                 $('.circlec>h2').append(`<div class='personalInfoCard'> Stared programming at John Bryce in 2019.
                 <br>Fell in love with the world of code and how
@@ -107,7 +107,7 @@ $(function() {
                 $('.circlec>h2').html('Want to learn more? <br> CLICK ME!');
                 $('.circlec>h2').css('margin-top', 35 + '%');
                 $('.circlec>h2').fadeIn('slow');
-                $('.backgroundParallax2').animate({ height: 400 }, 500)
+                $('.backgroundParallax2').animate({ height: 450 }, 600)
             }
         }, 300);
 
@@ -130,9 +130,9 @@ $(function() {
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Eden Hazani</title>
-</head>
+    </head>
 
-<body>
+    <body>
     <div class="container text-center">
         <div class="wrapper">
             <div class="row">
