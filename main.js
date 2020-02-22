@@ -204,58 +204,6 @@ $(function() {
                                 <span id="pageClock"></span>
                             </li>
                         </ul>
-
-                        <ul class="navbar-nav ml-auto">
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="trueSpace.html">Voyager77</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="index.html">Space Food (coming soon)</a>
-                            </li>
-                        </ul>
-
-                        <a class="navbar-brand ml-3" href="index.html">SpaceBorn</a>
-
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="starList.html">Stars<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="applyForm.html">Apply forms</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Contact Us
-                            </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item pageNotReady" href="#">InterStellar Chat</a>
-                                    <a class="dropdown-item pageNotReady" href="#">Galactic Mail</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item pageNotReady" href="#">Phone Call<br>
-                                        (space charges may apply)</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto ">
-                            <li class="nav-item">
-                                <a class="nav-link pageNotReady" href="#">Not Yet Ready</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col voyager">
-                <h1>Distance of our farthest Spaceship yet</h1>
-                <br>
-                <h2>Voyager 1</h2>
-                <p>Voyager 1 is a space probe launched by NASA on September 5, 1977.<br> Part of the Voyager program to study the outer Solar System</p>
-            </div>
-        </div>
     `
     var speed = 1; /* The speed/duration of the effect in milliseconds */
     $(document).ready(() => {
