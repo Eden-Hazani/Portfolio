@@ -100,11 +100,17 @@ body {
     color: #FFFFFF;
 }
 
-.projectLinks {
-    margin-top: 15px;
+.portret {
+    background-image: url('assets/images/portret.jpg');
+    background-position: center;
 }
 
-.projectLinks>a {
+.projectHeadline {
+    background-color: black;
+    padding: 0;
+}
+
+.projectHeadline>div>h1 {
     color: white;
 }
 
@@ -182,6 +188,10 @@ body {
     width: 340px;
     width: 100%;
     height: 500px;
+}
+
+.leftIconBackground:hover {
+    cursor: pointer;
 }
 
 .leftIconBackground {

@@ -17,8 +17,12 @@ $(function() {
             150
         ];
 
-        $('.layer').css('background', 'rgba(' + rgb.join(',') + ',0.250)');
+        $('#typewriter').css('color', 'rgb(' + rgb.join(',') + ')');
     }).resize();
+
+    $('.leftIconBackground').on('click', function() {
+        window.open('https://shockhit.github.io/SpaceBorn/', '_blank');
+    });
 
 
 
@@ -89,7 +93,7 @@ $(function() {
         $('.circlec>h2').fadeOut(300);
         setTimeout(() => {
             if ($('.circlec>h2').html() === 'Want to learn more? <br> CLICK ME!') {
-                $('.backgroundParallax2').animate({ height: 1500 }, 1500)
+                $('.backgroundParallax2').animate({ height: 1200 }, 500)
                 $('.circlec>h2').html('Eden Hazani <br>');
                 $('.circlec>h2').append(`<div class='personalInfoCard'> Stared programming at John Bryce in 2019.
                 <br>Fell in love with the world of code and how
@@ -107,7 +111,7 @@ $(function() {
                 $('.circlec>h2').html('Want to learn more? <br> CLICK ME!');
                 $('.circlec>h2').css('margin-top', 35 + '%');
                 $('.circlec>h2').fadeIn('slow');
-                $('.backgroundParallax2').animate({ height: 450 }, 600)
+                $('.backgroundParallax2').animate({ height: 450 }, 500)
             }
         }, 300);
 
