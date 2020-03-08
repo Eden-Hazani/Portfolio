@@ -24,6 +24,10 @@ $(function() {
         window.open('https://shockhit.github.io/SpaceBorn/', '_blank');
     });
 
+    $('.centerIconBackground').on('click', function() {
+        window.open('https://shockhit.github.io/CryptoBear/', '_blank');
+    });
+
 
 
 
@@ -94,8 +98,10 @@ $(function() {
         setTimeout(() => {
             if ($('.circlec>h2').html() === 'Want to learn more? <br> CLICK ME!') {
                 $('.backgroundParallax2').animate({ height: 1200 }, 500)
+                $('.circlec>h2').css('transform', 'rotate(0)');
+                $('.circlec>h2').css('margin-right', 0 + 'px');
                 $('.circlec>h2').html('Eden Hazani <br>');
-                $('.circlec>h2').append(`<div class='personalInfoCard'> Stared programming at John Bryce in 2019.
+                $('.circlec>h2').append(`<div class='personalInfoCard'> Started programming at John Bryce in 2019.
                 <br>Fell in love with the world of code and how
                 <br>It affects our daily lives.
                 </div>
@@ -110,6 +116,8 @@ $(function() {
             } else {
                 $('.circlec>h2').html('Want to learn more? <br> CLICK ME!');
                 $('.circlec>h2').css('margin-top', 35 + '%');
+                $('.circlec>h2').css('transform', 'rotate(-20deg)');
+                $('.circlec>h2').css('margin-right', 10 + 'px');
                 $('.circlec>h2').fadeIn('slow');
                 $('.backgroundParallax2').animate({ height: 450 }, 500)
             }
@@ -135,7 +143,6 @@ $(function() {
     <link rel="stylesheet" href="styles.css">
     <title>Eden Hazani</title>
     </head>
-
     <body>
     <div class="container text-center">
         <div class="wrapper">

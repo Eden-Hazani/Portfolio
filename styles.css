@@ -136,6 +136,8 @@ body {
 
 .circlec>h2 {
     margin-top: 35%;
+    transform: rotate(-20deg);
+    margin-right: 10px;
 }
 
 .circlea>h2 {
@@ -200,8 +202,26 @@ body {
     background-size: cover;
 }
 
+.centerIconBackground:hover {
+    cursor: pointer;
+}
+
+.centerIconBackground {
+    background-image: url('/assets/images/cryptoBearIcon.jpg');
+    background-size: cover;
+}
+
 .spaceBornIcon {
     background-image: url('assets/images/spaceBornBackground.gif');
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: auto;
+}
+
+.cryptoBearIcon {
+    background-image: url('assets/images/bearLoadingGif.gif');
     background-position: center;
     width: 200px;
     height: 200px;
@@ -214,9 +234,11 @@ body {
     margin: auto;
     border-radius: 25px;
     color: white;
+    text-shadow: 2px 2px 1px black;
 }
 
 .infoIcons>div>h1 {
+    text-shadow: 2px 2px 1px black;
     color: white;
     margin-top: 2rem;
 }
