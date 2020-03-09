@@ -197,7 +197,7 @@ body {
 }
 
 .leftIconBackground {
-    background-image: url('/assets/images/spaceBornLogoBackground.jpg');
+    background-image: url('assets/images/spaceBornLogoBackground.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -207,7 +207,7 @@ body {
 }
 
 .centerIconBackground {
-    background-image: url('/assets/images/cryptoBearIcon.jpg');
+    background-image: url('assets/images/cryptoBearIcon.jpg');
     background-size: cover;
 }
 
