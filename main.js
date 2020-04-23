@@ -27,6 +27,11 @@ $(function() {
     $('.centerIconBackground').on('click', function() {
         window.open('https://shockhit.github.io/CryptoBear/', '_blank');
     });
+    $('.rightIconBackground').on('click', function() {
+        window.open('https://shockhit.github.io/CryptoBear/', '_blank');
+    });
+
+
 
 
 
