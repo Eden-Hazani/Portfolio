@@ -1,0 +1,61 @@
+.skills * {
+    padding: 20px;
+}
+
+.skills>hr,
+.skills>br {
+    padding: 0px;
+}
+
+.html5Logo {
+    background-image: url('assets/images/HTML5_Badge.svg');
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+}
+
+.cssLogo {
+    background-image: url("assets/images/CSS3_Logo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+
+.jsLogo {
+    background-image: url("assets/images/javascript.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+
+.reactLogo {
+    background-image: url("assets/images/reactLogo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+
+.jqueryLogo {
+    background-image: url("assets/images/JqueryLogo.png");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+
+.nodeJSLogo {
+    background-image: url("assets/images/Node.js_logo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
