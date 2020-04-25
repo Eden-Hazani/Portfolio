@@ -13,14 +13,15 @@ $(function() {
         window.open('https://shockhit.github.io/Morbiez', '_blank');
     });
 
+
     $('.portritDiv').on('mousemove', function(e) {
-        $('.portrit').css('width', e.pageX - 800);
-        if ($('.portrit').width() > 350) {
+        $('.portrit').css('width', e.pageX - 200);
+        if ($('.portrit').width() > 420) {
             $('.portrit').css('width', 2040 - 600 - e.pageX);
         }
-        $('.portrit2').css('width', 2040 - 800 - e.pageX);
-        $('.portrit3').css('width', 2040 - 1000 - e.pageX);
-        $('.portrit4').css('width', 2040 - 1200 - e.pageX);
+        $('.portrit2').css('width', 2040 - 900 - e.pageX);
+        $('.portrit3').css('width', 2040 - 1100 - e.pageX);
+        $('.portrit4').css('width', 2040 - 1300 - e.pageX);
         $('.portrit5').css('width', e.pageX - 1000);
         $('.portrit6').css('width', e.pageX - 800);
         $('.portrit7').css('width', e.pageX - 600);
@@ -83,58 +84,18 @@ $(function() {
         }, 500);
     });
 
-    $('body').mousemove(function(e) {
-        let moveX = (e.pageX * -1 / 15);
-        let moveY = (e.pageY * -1 / 15);
-        $('#typewriter').css('margin-left', moveX + 'px ')
-        $('#typewriter').css('margin-top', moveY + 'px ')
-    })
 
+    //   webkitanimation / mozamination get the type of animation that was used
+    //  animationend sences that the animation has ended
+    // and the functions add or remove the animation class as necessary 
 
-
-
-
-
-    $(".determination>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function() {
+    $(".skillsIcon,.experience>div,.determination>div,.personal>div,.details>div,.linkedIn>div,.emailContact>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function() {
         $(this).removeClass("animated")
     })
 
-    $(".determination>div").hover(function() {
+    $(".skillsIcon,.experience>div,.determination>div,.personal>div,.details>div,.linkedIn>div,.emailContact>div").hover(function() {
         $(this).addClass("animated")
     })
-
-    $(".skillsIcon").bind("webkitAnimationEnd mozAnimationEnd animationend", function() {
-        $(this).removeClass("animated")
-    })
-
-    $(".skillsIcon").hover(function() {
-        $(this).addClass("animated")
-    })
-
-    $(".experience>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function() {
-        $(this).removeClass("animated")
-    })
-
-    $(".experience>div").hover(function() {
-        $(this).addClass("animated")
-    })
-
-    $(".personal>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function() {
-        $(this).removeClass("animated")
-    })
-
-    $(".personal>div").hover(function() {
-        $(this).addClass("animated")
-    })
-
-
-    $(".details>div").hover(function() {
-        $(this).addClass("animated")
-    })
-    $(".details>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function() {
-        $(this).removeClass("animated")
-    })
-
 
 
 

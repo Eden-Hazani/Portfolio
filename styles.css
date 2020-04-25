@@ -19,7 +19,7 @@ body {
 
 .portrit {
     background-image: url('/assets/images/Eden2.jpg');
-    max-width: 500px;
+    max-width: 450px;
     width: 350px;
     height: 350px;
     border-radius: 100px;
@@ -31,7 +31,7 @@ body {
 
 .portrit2 {
     background-image: url('/assets/images/CSS3_Logo.svg');
-    max-width: 500px;
+    max-width: 450px;
     height: 350px;
     border-radius: 100px;
     background-position: center;
@@ -43,7 +43,7 @@ body {
 
 .portrit3 {
     background-image: url('/assets/images/javascript.svg');
-    max-width: 500px;
+    max-width: 450px;
     height: 350px;
     border-radius: 100px;
     background-position: center;
@@ -55,7 +55,7 @@ body {
 
 .portrit4 {
     background-image: url('/assets/images/HTML5_Badge.svg');
-    max-width: 500px;
+    max-width: 450px;
     height: 350px;
     border-radius: 100px;
     background-position: center;
@@ -67,7 +67,7 @@ body {
 
 .portrit5 {
     background-image: url('/assets/images/JqueryLogo.png');
-    max-width: 500px;
+    max-width: 450px;
     height: 350px;
     border-radius: 100px;
     background-position: center;
@@ -79,7 +79,7 @@ body {
 
 .portrit6 {
     background-image: url('/assets/images/Node.js_logo.svg');
-    max-width: 500px;
+    max-width: 450px;
     height: 350px;
     border-radius: 100px;
     background-position: center;
@@ -91,7 +91,7 @@ body {
 
 .portrit7 {
     background-image: url('/assets/images/reactLogo.svg');
-    max-width: 500px;
+    max-width: 450px;
     height: 350px;
     border-radius: 100px;
     background-position: center;
@@ -440,6 +440,57 @@ body {
     display: inline-block;
     padding: 25px;
     border-radius: 25px;
+    width: 300px;
+}
+
+.linkedIn>div {
+    background-image: url('/assets/images/linkedin.svg');
+    width: 150px;
+    height: 150px;
+    border-radius: 180px;
+    background-position: center;
+    background-size: 60px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.linkedIn {
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.308);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.linkedIn>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+.emailContact>div {
+    background-image: url('/assets/images/mail.svg');
+    width: 150px;
+    height: 150px;
+    border-radius: 180px;
+    background-position: center;
+    background-size: 60px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.emailContact {
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.308);
+    display: inline-block;
+    padding: 25px;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.contactDeteils {
+    display: inline-block;
+    width: 400px;
 }
 
 @media screen and (min-width: 768px) {
