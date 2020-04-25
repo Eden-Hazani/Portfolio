@@ -246,11 +246,6 @@ body {
     color: gray;
 }
 
-.portret {
-    background-image: url('assets/images/portret.jpg');
-    background-position: center;
-}
-
 .projectHeadline {
     background-color: black;
     padding: 0;
