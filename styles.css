@@ -453,7 +453,10 @@ body {
 
 @media (max-width: 1600px) {
     .firstBoxNameFont {
-        font-size: 60px;
+        font-size: 40px;
+    }
+    .portrit {
+        display: none;
     }
 }
 
