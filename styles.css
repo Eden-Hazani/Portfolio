@@ -283,31 +283,41 @@ body {
     height: 500px;
 }
 
-.leftIconBackground:hover {
+.spaceBornBackGround:hover {
     cursor: pointer;
 }
 
-.leftIconBackground {
+.spaceBornBackGround {
     background-image: url('assets/images/spaceBornLogoBackground.jpg');
     background-position: center;
     background-size: cover;
 }
 
-.centerIconBackground:hover {
+.cryptoBearBackGround:hover {
     cursor: pointer;
 }
 
-.centerIconBackground {
+.cryptoBearBackGround {
     background-image: url('assets/images/cryptoBearIcon.png');
     background-size: cover;
 }
 
-.rightIconBackground {
+.morbiezBackGround {
     background-image: url('assets/images/morbiez.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.morbiezBackGround:hover {
+    cursor: pointer;
+}
+
+.skySurferBackGround {
+    background-image: url('assets/images/skysurfer-wallpaper.jpg');
     background-size: cover;
 }
 
-.rightIconBackground:hover {
+.skySurferBackGround:hover {
     cursor: pointer;
 }
 
@@ -327,6 +337,16 @@ body {
     height: 200px;
     border-radius: 150px;
     margin: auto;
+}
+
+.skySurferIcon {
+    background-image: url('assets/images/skysurfer-icon.gif');
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: auto;
+    background-size: 265px;
 }
 
 .cryptoBearIcon {

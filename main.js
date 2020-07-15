@@ -2,15 +2,18 @@ $(function() {
 
 
 
-    $('.leftIconBackground').on('click', function() {
-        window.open('https://shockhit.github.io/SpaceBorn/', '_blank');
+    $('.spaceBornBackGround').on('click', function() {
+        window.open('https://eden-hazani.github.io/SpaceBorn/', '_blank');
     });
 
-    $('.centerIconBackground').on('click', function() {
-        window.open('https://shockhit.github.io/CryptoBear/', '_blank');
+    $('.cryptoBearBackGround').on('click', function() {
+        window.open('https://eden-hazani.github.io/CryptoBear/', '_blank');
     });
-    $('.rightIconBackground').on('click', function() {
-        window.open('https://shockhit.github.io/Morbiez', '_blank');
+    $('.morbiezBackGround').on('click', function() {
+        window.open('https://eden-hazani.github.io/Morbiez', '_blank');
+    });
+    $('.skySurferBackGround').on('click', function() {
+        window.open('http://sky-surfer.com', '_blank');
     });
 
 
