@@ -15,6 +15,9 @@ $(function() {
     $('.skySurferBackGround').on('click', function() {
         window.open('http://sky-surfer.com', '_blank');
     });
+    $('.skyBuyBackGround').on('click', function() {
+        window.open('https://sky-buy.azurewebsites.net', '_blank');
+    });
 
 
     $('.portritDiv').on('mousemove', function(e) {
