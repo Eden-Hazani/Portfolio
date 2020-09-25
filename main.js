@@ -1,26 +1,26 @@
-$(function() {
+$(function () {
 
 
 
-    $('.spaceBornBackGround').on('click', function() {
+    $('.spaceBornBackGround').on('click', function () {
         window.open('https://eden-hazani.github.io/SpaceBorn/', '_blank');
     });
 
-    $('.cryptoBearBackGround').on('click', function() {
+    $('.cryptoBearBackGround').on('click', function () {
         window.open('https://eden-hazani.github.io/CryptoBear/', '_blank');
     });
-    $('.morbiezBackGround').on('click', function() {
+    $('.morbiezBackGround').on('click', function () {
         window.open('https://eden-hazani.github.io/Morbiez', '_blank');
     });
-    $('.skySurferBackGround').on('click', function() {
+    $('.skySurferBackGround').on('click', function () {
         window.open('http://sky-surfer.com', '_blank');
     });
-    $('.skyBuyBackGround').on('click', function() {
-        window.open('https://sky-buy.azurewebsites.net', '_blank');
+    $('.skyBuyBackGround').on('click', function () {
+        window.open('https://github.com/Eden-Hazani/Sky-Buy', '_blank');
     });
 
 
-    $('.portritDiv').on('mousemove', function(e) {
+    $('.portritDiv').on('mousemove', function (e) {
         $('.portrit').css('width', e.pageX - 200);
         if ($('.portrit').width() > 420) {
             $('.portrit').css('width', 2040 - 600 - e.pageX);
@@ -35,7 +35,7 @@ $(function() {
 
 
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         // first name
         let firstNameArray = $('.firstName').html().split(' ')[0].split('');
         let lastNameArray = $('.firstName').html().split(' ')[1].split('');
@@ -95,11 +95,11 @@ $(function() {
     //  animationend sences that the animation has ended
     // and the functions add or remove the animation class as necessary 
 
-    $(".skillsIcon,.experience>div,.determination>div,.personal>div,.details>div,.linkedIn>div,.emailContact>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function() {
+    $(".skillsIcon,.experience>div,.determination>div,.personal>div,.details>div,.linkedIn>div,.emailContact>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
         $(this).removeClass("animated")
     })
 
-    $(".skillsIcon,.experience>div,.determination>div,.personal>div,.details>div,.linkedIn>div,.emailContact>div").hover(function() {
+    $(".skillsIcon,.experience>div,.determination>div,.personal>div,.details>div,.linkedIn>div,.emailContact>div").hover(function () {
         $(this).addClass("animated")
     })
 
