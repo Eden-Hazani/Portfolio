@@ -18,6 +18,9 @@ $(function () {
     $('.skyBuyBackGround').on('click', function () {
         window.open('https://github.com/Eden-Hazani/Sky-Buy', '_blank');
     });
+    $('.dncreateBackGround').on('click', function () {
+        window.open('https://github.com/Eden-Hazani/DnCreate', '_blank');
+    });
 
 
     $('.portritDiv').on('mousemove', function (e) {

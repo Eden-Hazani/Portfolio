@@ -328,6 +328,20 @@ body {
     border: 20px solid white;
 }
 
+.dncreateBackGround {
+    background-image: url('assets/images/dncreatebackground.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    transition: ease-in-out .2s;
+}
+
+.dncreateBackGround:hover {
+    border-radius: 100px;
+    cursor: pointer;
+    border: 20px solid white;
+}
+
 .skySurferBackGround {
     background-image: url('assets/images/skysurfer-wallpaper.jpg');
     background-size: cover;
@@ -371,6 +385,18 @@ body {
     border-radius: 150px;
     margin: auto;
 }
+
+.dncreateIcon {
+    background-image: url('assets/images/dncreateIcon.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin: auto;
+}
+
 
 .skySurferIcon {
     background-image: url('assets/images/skysurfer-icon.gif');
