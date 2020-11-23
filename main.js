@@ -3,7 +3,7 @@ $(function () {
 
 
     $('.spaceBornBackGround').on('click', function () {
-        window.open('https://eden-hazani.github.io/SpaceBorn/', '_blank');
+        window.open('https://github.com/Eden-Hazani/SpaceBorn', '_blank');
     });
 
     $('.cryptoBearBackGround').on('click', function () {
@@ -93,10 +93,6 @@ $(function () {
         }, 500);
     });
 
-
-    //   webkitanimation / mozamination get the type of animation that was used
-    //  animationend sences that the animation has ended
-    // and the functions add or remove the animation class as necessary 
 
     $(".skillsIcon,.experience>div,.determination>div,.personal>div,.details>div,.linkedIn>div,.emailContact>div").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
         $(this).removeClass("animated")
