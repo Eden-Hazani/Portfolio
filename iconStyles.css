@@ -59,3 +59,19 @@
     display: inline-block;
     background-size: 50px 50px;
 }
+.angularLogo {
+    background-image: url("assets/images/angular-icon.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+.reduxLogo {
+    background-image: url("assets/images/redux.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
