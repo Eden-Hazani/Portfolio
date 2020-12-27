@@ -40,6 +40,8 @@ $(function () {
 
     $(document).ready(function () {
         // first name
+        $('.smallPort').hide(0).delay(500).fadeIn(1000)
+
         let firstNameArray = $('.firstName').html().split(' ')[0].split('');
         let lastNameArray = $('.firstName').html().split(' ')[1].split('');
         // notyourava
@@ -49,7 +51,6 @@ $(function () {
         // webdev
         let web = $('.webDev').html().split(' ')[0].split('');
         let dev = $('.webDev').html().split(' ')[1].split('');
-
 
         $('.firstName').html('');
         $('.notYourAvarage').html('');

@@ -534,9 +534,26 @@ body {
     display: inline-block;
     width: 400px;
 }
+.smallPort{
+    max-width: 450px;
+    height: 350px;
+    border-radius: 100px;
+    background-position: center;
+    background-size: 350px;
+    margin: auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    
+}
 
 @media screen and (min-width: 768px) {
     .rwd-break {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .smallPort {
         display: none;
     }
 }
@@ -548,7 +565,9 @@ body {
     .portrit {
         display: none;
     }
+
 }
+
 
 @keyframes letterrotate {
     0% {
