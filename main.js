@@ -40,7 +40,7 @@ $(function () {
 
     $(document).ready(function () {
         // first name
-        $('.smallPort').hide(0).delay(500).fadeIn(1000)
+        $('.profileImg').hide(0).delay(1000).fadeIn(700)
 
         let firstNameArray = $('.firstName').html().split(' ')[0].split('');
         let lastNameArray = $('.firstName').html().split(' ')[1].split('');
