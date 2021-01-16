@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    overflow-x: hidden;
+   overflow: hidden;
 }
 
 .navigator {
@@ -175,6 +175,7 @@ body {
 
 .firstBox {
     margin-top: 10rem;
+    overflow: hidden;
 }
 
 .backgroundParallax1 {
@@ -286,8 +287,9 @@ body {
 .spaceBornBackGround:hover {
     position: relative;
     cursor: pointer;
-    border-radius: 100px;
-    border: 20px solid white;
+    border-radius: 50px;
+    -webkit-filter:none;
+    border: 3px solid white;
     background: linear-gradient(0deg, rgba(216, 95, 166, 0.308), rgba(255, 189, 103, 0.466)), url("assets/images/spaceBornLogoBackground.jpg");
     background-position: center;
     background-size: cover;
@@ -295,6 +297,7 @@ body {
 
 .spaceBornBackGround {
     background-image: url('assets/images/spaceBornLogoBackground.jpg');
+    -webkit-filter: grayscale(1);
     background-position: center;
     background-size: cover;
     border: 2px solid white;
@@ -302,13 +305,15 @@ body {
 }
 
 .cryptoBearBackGround:hover {
-    border-radius: 100px;
     cursor: pointer;
-    border: 20px solid white;
+    border-radius: 50px;
+    -webkit-filter:none;
+    border: 3px solid white;
 }
 
 .cryptoBearBackGround {
     background-image: url('assets/images/cryptoBearIcon.png');
+    -webkit-filter: grayscale(1);
     background-size: cover;
     border: 2px solid white;
     transition: ease-in-out .2s;
@@ -317,55 +322,63 @@ body {
 .morbiezBackGround {
     background-image: url('assets/images/morbiez.jpg');
     background-size: cover;
+    -webkit-filter: grayscale(1);
     background-position: center;
     border: 2px solid white;
     transition: ease-in-out .2s;
 }
 
 .morbiezBackGround:hover {
-    border-radius: 100px;
     cursor: pointer;
-    border: 20px solid white;
+    border-radius: 50px;
+    -webkit-filter:none;
+    border: 3px solid white;
 }
 
 .dncreateBackGround {
     background-image: url('assets/images/dncreatebackground.png');
     background-size: cover;
     background-position: center;
+    -webkit-filter: grayscale(1);
     border: 2px solid white;
     transition: ease-in-out .2s;
 }
 
 .dncreateBackGround:hover {
-    border-radius: 100px;
     cursor: pointer;
-    border: 20px solid white;
+    border-radius: 50px;
+    -webkit-filter:none;
+    border: 3px solid white;
 }
 
 .skySurferBackGround {
     background-image: url('assets/images/skysurfer-wallpaper.jpg');
     background-size: cover;
     border: 2px solid white;
+    -webkit-filter: grayscale(1);
     transition: ease-in-out .2s;
 }
 
 .skySurferBackGround:hover {
-    border-radius: 100px;
     cursor: pointer;
-    border: 20px solid white;
+    border-radius: 50px;
+    -webkit-filter:none;
+    border: 3px solid white;
 }
 
 .skyBuyBackGround {
     background-image: url('assets/images/skybuy-background.jpg');
     background-size: cover;
     border: 2px solid white;
+    -webkit-filter: grayscale(1);
     transition: ease-in-out .2s;
 }
 
 .skyBuyBackGround:hover {
-    border-radius: 100px;
     cursor: pointer;
-    border: 20px solid white;
+    border-radius: 50px;
+    -webkit-filter:none;
+    border: 3px solid white;
 }
 
 .morbiezIcon {
@@ -554,6 +567,7 @@ body {
 
 @media screen and (min-width: 1600px) {
     .profileImg {
+        opacity: 0;
         display: none;
     }
 }

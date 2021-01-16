@@ -22,15 +22,15 @@ $(function () {
         window.open('https://github.com/Eden-Hazani/DnCreate', '_blank');
     });
 
-
+    let width = $(window).width()
     $('.portritDiv').on('mousemove', function (e) {
-        $('.portrit').css('width', e.pageX - 200);
+        $('.portrit').css('width', e.pageX - 400);
         if ($('.portrit').width() > 420) {
-            $('.portrit').css('width', 2040 - 600 - e.pageX);
+            $('.portrit').css('width', width - 600 - e.pageX);
         }
-        $('.portrit2').css('width', 2040 - 900 - e.pageX);
-        $('.portrit3').css('width', 2040 - 1100 - e.pageX);
-        $('.portrit4').css('width', 2040 - 1300 - e.pageX);
+        $('.portrit2').css('width', width - 900 - e.pageX);
+        $('.portrit3').css('width', width - 1100 - e.pageX);
+        $('.portrit4').css('width', width - 1300 - e.pageX);
         $('.portrit5').css('width', e.pageX - 1000);
         $('.portrit6').css('width', e.pageX - 800);
         $('.portrit7').css('width', e.pageX - 600);
