@@ -3,10 +3,30 @@ html {
     padding: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body {
    overflow: hidden;
+}
+
+.projectMainImg>img{
+    margin-top:15px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #555;
+    border-radius: 350px;
+}
+.projectGifStyle{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: flex-start;
+}
+.projectGifStyle>img{
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 50px;
 }
 
 .navigator {
@@ -16,6 +36,18 @@ body {
     width: 100%;
     z-index: 100;
     margin: auto;
+}
+
+.firstBoxCover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-image: url('/assets/images/nameBackground.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
 }
 
 .portrit {
@@ -72,8 +104,7 @@ body {
     padding: 10px;
 }
 
-.determination,
-.skills {
+.determination {
     margin-bottom: 50px;
 }
 
@@ -174,7 +205,6 @@ body {
 }
 
 .firstBox {
-    margin-top: 10rem;
     overflow: hidden;
 }
 
@@ -237,20 +267,24 @@ body {
 
 .firstBoxFont {
     font-family: lightTitle;
-    font-size: 50px;
+    font-size: 3.5vh;
     color: white;
     text-shadow: 1px 1px 1px gray;
 }
 
 .firstBoxNameFont {
     font-family: lightTitle;
-    font-size: 80px;
+    font-size: 3.5vh;
     color: gray;
 }
 
 .projectHeadline {
     background-color: black;
-    padding: 0;
+    padding: 5px;
+}
+
+#projects{
+    margin-bottom: 0px;
 }
 
 .projectHeadline>div>h1 {
@@ -277,190 +311,6 @@ body {
     position: relative;
 }
 
-.infoIcons {
-    margin-top: 3rem;
-    width: 340px;
-    width: 100%;
-    height: 500px;
-}
-
-.spaceBornBackGround:hover {
-    position: relative;
-    cursor: pointer;
-    border-radius: 50px;
-    -webkit-filter:none;
-    border: 3px solid white;
-    background: linear-gradient(0deg, rgba(216, 95, 166, 0.308), rgba(255, 189, 103, 0.466)), url("assets/images/spaceBornLogoBackground.jpg");
-    background-position: center;
-    background-size: cover;
-}
-
-.spaceBornBackGround {
-    background-image: url('assets/images/spaceBornLogoBackground.jpg');
-    -webkit-filter: grayscale(1);
-    background-position: center;
-    background-size: cover;
-    border: 2px solid white;
-    transition: ease-in-out .2s;
-}
-
-.cryptoBearBackGround:hover {
-    cursor: pointer;
-    border-radius: 50px;
-    -webkit-filter:none;
-    border: 3px solid white;
-}
-
-.cryptoBearBackGround {
-    background-image: url('assets/images/cryptoBearIcon.png');
-    -webkit-filter: grayscale(1);
-    background-size: cover;
-    border: 2px solid white;
-    transition: ease-in-out .2s;
-}
-
-.morbiezBackGround {
-    background-image: url('assets/images/morbiez.jpg');
-    background-size: cover;
-    -webkit-filter: grayscale(1);
-    background-position: center;
-    border: 2px solid white;
-    transition: ease-in-out .2s;
-}
-
-.morbiezBackGround:hover {
-    cursor: pointer;
-    border-radius: 50px;
-    -webkit-filter:none;
-    border: 3px solid white;
-}
-
-.dncreateBackGround {
-    background-image: url('assets/images/dncreatebackground.png');
-    background-size: cover;
-    background-position: center;
-    -webkit-filter: grayscale(1);
-    border: 2px solid white;
-    transition: ease-in-out .2s;
-}
-
-.dncreateBackGround:hover {
-    cursor: pointer;
-    border-radius: 50px;
-    -webkit-filter:none;
-    border: 3px solid white;
-}
-
-.skySurferBackGround {
-    background-image: url('assets/images/skysurfer-wallpaper.jpg');
-    background-size: cover;
-    border: 2px solid white;
-    -webkit-filter: grayscale(1);
-    transition: ease-in-out .2s;
-}
-
-.skySurferBackGround:hover {
-    cursor: pointer;
-    border-radius: 50px;
-    -webkit-filter:none;
-    border: 3px solid white;
-}
-
-.skyBuyBackGround {
-    background-image: url('assets/images/skybuy-background.jpg');
-    background-size: cover;
-    border: 2px solid white;
-    -webkit-filter: grayscale(1);
-    transition: ease-in-out .2s;
-}
-
-.skyBuyBackGround:hover {
-    cursor: pointer;
-    border-radius: 50px;
-    -webkit-filter:none;
-    border: 3px solid white;
-}
-
-.morbiezIcon {
-    background-image: url('assets/images/burderLoading.gif');
-    background-position: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    margin: auto;
-}
-
-.spaceBornIcon {
-    background-image: url('assets/images/spaceBornBackground.gif');
-    background-position: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    margin: auto;
-}
-
-.dncreateIcon {
-    background-image: url('assets/images/dncreateIcon.gif');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    margin: auto;
-}
-
-
-.skySurferIcon {
-    background-image: url('assets/images/skysurfer-icon.gif');
-    background-position: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    margin: auto;
-    background-size: 265px;
-}
-
-.skyBuyIcon {
-    background-image: url('assets/images/skybuy-icon.gif');
-    background-position: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    margin: auto;
-    background-size: 265px;
-}
-
-.cryptoBearIcon {
-    background-image: url('assets/images/bearLoadingGif.gif');
-    background-position: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 150px;
-    margin: auto;
-}
-
-.leftIconBackground,
-.centerIconBackground,
-.rightIconBackground {
-    margin: 20px;
-    border-radius: 25px;
-    border: 1px black solid;
-}
-
-.infoIconText {
-    width: 300px;
-    margin: auto;
-    border-radius: 25px;
-    color: white;
-    text-shadow: 2px 2px 1px black;
-}
-
-.infoIcons>div>h1 {
-    text-shadow: 2px 2px 1px black;
-    color: white;
-    margin-top: 2rem;
-}
 
 .rowSeperetor {
     margin-bottom: 200px;
@@ -547,17 +397,7 @@ body {
     display: inline-block;
     width: 400px;
 }
-.profileImg{
-    max-width: 450px;
-    height: 350px;
-    border-radius: 100px;
-    background-position: center;
-    background-size: 350px;
-    margin: auto;
-    display: inline-block;
-    background-repeat: no-repeat;
-    
-}
+
 
 @media screen and (min-width: 768px) {
     .rwd-break {
@@ -565,17 +405,9 @@ body {
     }
 }
 
-@media screen and (min-width: 1600px) {
-    .profileImg {
-        opacity: 0;
-        display: none;
-    }
-}
+
 
 @media (max-width: 1600px) {
-    .firstBoxNameFont {
-        font-size: 40px;
-    }
     .portrit {
         display: none;
     }

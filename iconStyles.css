@@ -42,6 +42,55 @@
     background-size: 50px 50px;
 }
 
+.mongoDbLogo {
+    background-image: url("assets/images/mongoDbIcon.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+.websiteLogo {
+    background-image: url("assets/images/websiteLogo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+.socket-ioLogo {
+    background-image: url("assets/images/socket-ioLogo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+.gitLogo {
+    background-image: url("assets/images/gitLogo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+.googlePlayLogo {
+    background-image: url("assets/images/googlePlayLogo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+.microsoftAzureLogo {
+    background-image: url("assets/images/microsoftAzureLogo.svg");
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: inline-block;
+    background-size: 50px 50px;
+}
+
 .jqueryLogo {
     background-image: url("assets/images/JqueryLogo.png");
     width: 50px;

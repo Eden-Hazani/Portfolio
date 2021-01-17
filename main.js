@@ -2,46 +2,33 @@ $(function () {
 
 
 
-    $('.spaceBornBackGround').on('click', function () {
-        window.open('https://github.com/Eden-Hazani/SpaceBorn', '_blank');
-    });
-
-    $('.cryptoBearBackGround').on('click', function () {
-        window.open('https://eden-hazani.github.io/CryptoBear/', '_blank');
-    });
-    $('.morbiezBackGround').on('click', function () {
-        window.open('https://eden-hazani.github.io/Morbiez', '_blank');
-    });
-    $('.skySurferBackGround').on('click', function () {
-        window.open('http://sky-surfer.com', '_blank');
-    });
-    $('.skyBuyBackGround').on('click', function () {
-        window.open('https://github.com/Eden-Hazani/Sky-Buy', '_blank');
-    });
-    $('.dncreateBackGround').on('click', function () {
+    $('#dnCreateGit').on('click', function () {
         window.open('https://github.com/Eden-Hazani/DnCreate', '_blank');
     });
 
-    let width = $(window).width()
-    $('.portritDiv').on('mousemove', function (e) {
-        $('.portrit').css('width', e.pageX - 400);
-        if ($('.portrit').width() > 420) {
-            $('.portrit').css('width', width - 600 - e.pageX);
-        }
-        $('.portrit2').css('width', width - 900 - e.pageX);
-        $('.portrit3').css('width', width - 1100 - e.pageX);
-        $('.portrit4').css('width', width - 1300 - e.pageX);
-        $('.portrit5').css('width', e.pageX - 1000);
-        $('.portrit6').css('width', e.pageX - 800);
-        $('.portrit7').css('width', e.pageX - 600);
+    $('#dnCreateGoogle').on('click', function () {
+        window.open('https://play.google.com/store/apps/details?id=com.DnCreate', '_blank');
+    });
+    $('#skyBuyGit').on('click', function () {
+        window.open('https://github.com/Eden-Hazani/Sky-Buy', '_blank');
+    });
+    $('#skySurferGit').on('click', function () {
+        window.open('https://github.com/Eden-Hazani/SkySurf', '_blank');
+    });
+    $('#skySurferWebsite').on('click', function () {
+        window.open('http://www.sky-surfer.com', '_blank');
+    });
+    $('#cryptoBearGit').on('click', function () {
+        window.open('https://github.com/Eden-Hazani/CryptoBear', '_blank');
+    });
+    $('#cryptoBearWebsite').on('click', function () {
+        window.open('https://eden-hazani.github.io/CryptoBear/', '_blank');
     });
 
 
 
     $(document).ready(function () {
         // first name
-        $('.profileImg').hide(0).delay(1000).fadeIn(700)
-
         let firstNameArray = $('.firstName').html().split(' ')[0].split('');
         let lastNameArray = $('.firstName').html().split(' ')[1].split('');
         // notyourava
@@ -91,7 +78,7 @@ $(function () {
                 let radomizer = Math.floor(Math.random() * 3);
                 $('.webDev').append(`<span class='animation${radomizer}'>${letter}</span>`);
             }
-        }, 500);
+        }, 100);
     });
 
 
