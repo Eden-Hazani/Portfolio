@@ -8,7 +8,7 @@
 }
 
 .html5Logo {
-    background-image: url('assets/images/HTML5_Badge.svg');
+    background-image: url('./assets/images/HTML5_Badge.svg');
     width: 50px;
     height: 50px;
     margin: auto;
@@ -16,7 +16,7 @@
 }
 
 .cssLogo {
-    background-image: url("assets/images/CSS3_Logo.svg");
+    background-image: url("./assets/images/CSS3_Logo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -25,7 +25,7 @@
 }
 
 .jsLogo {
-    background-image: url("assets/images/javascript.svg");
+    background-image: url("./assets/images/javascript.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -34,7 +34,7 @@
 }
 
 .reactLogo {
-    background-image: url("assets/images/reactLogo.svg");
+    background-image: url("./assets/images/reactLogo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -43,7 +43,7 @@
 }
 
 .mongoDbLogo {
-    background-image: url("assets/images/mongoDbIcon.svg");
+    background-image: url("./assets/images/mongoDbIcon.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -51,7 +51,7 @@
     background-size: 50px 50px;
 }
 .websiteLogo {
-    background-image: url("assets/images/websiteLogo.svg");
+    background-image: url("./assets/images/websiteLogo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -59,7 +59,7 @@
     background-size: 50px 50px;
 }
 .socket-ioLogo {
-    background-image: url("assets/images/socket-ioLogo.svg");
+    background-image: url("./assets/images/socket-ioLogo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -67,7 +67,7 @@
     background-size: 50px 50px;
 }
 .gitLogo {
-    background-image: url("assets/images/gitLogo.svg");
+    background-image: url("./assets/images/gitLogo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -75,7 +75,7 @@
     background-size: 50px 50px;
 }
 .googlePlayLogo {
-    background-image: url("assets/images/googlePlayLogo.svg");
+    background-image: url("./assets/images/googlePlayLogo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -83,7 +83,7 @@
     background-size: 50px 50px;
 }
 .microsoftAzureLogo {
-    background-image: url("assets/images/microsoftAzureLogo.svg");
+    background-image: url("./assets/images/microsoftAzureLogo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -92,7 +92,7 @@
 }
 
 .jqueryLogo {
-    background-image: url("assets/images/JqueryLogo.png");
+    background-image: url("./assets/images/JqueryLogo.png");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -101,7 +101,7 @@
 }
 
 .nodeJSLogo {
-    background-image: url("assets/images/Node.js_logo.svg");
+    background-image: url("./assets/images/Node.js_logo.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -109,7 +109,7 @@
     background-size: 50px 50px;
 }
 .angularLogo {
-    background-image: url("assets/images/angular-icon.svg");
+    background-image: url("./assets/images/angular-icon.svg");
     width: 50px;
     height: 50px;
     margin: auto;
@@ -117,7 +117,7 @@
     background-size: 50px 50px;
 }
 .reduxLogo {
-    background-image: url("assets/images/redux.svg");
+    background-image: url("./assets/images/redux.svg");
     width: 50px;
     height: 50px;
     margin: auto;

@@ -329,7 +329,7 @@ body {
 }
 
 .details>div {
-    background-image: url('assets/images/phone.svg');
+    background-image: url('/assets/images/phone.svg');
     width: 150px;
     height: 150px;
     border-radius: 180px;
